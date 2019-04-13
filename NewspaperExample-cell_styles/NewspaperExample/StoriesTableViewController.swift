@@ -31,7 +31,7 @@ class StoriesTableViewController: UITableViewController {
         cell.detailTextLabel?.text = headline.text
         cell.imageView?.image = UIImage(named: headline.image)
 
-        //return cell
+        return cell
     }
 
 }
